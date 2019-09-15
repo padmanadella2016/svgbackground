@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    /* i'm lazy lol */
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 100vh;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    margin: 0 auto;
+}
+
+#background {
+    pointer-events: none;
+}
+
+@keyframes ping {
+	0% {
+		transform: scale(0.0);
+		opacity: 0.8;
+	}
+	100% {
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
